@@ -1,3 +1,4 @@
+/** 記事一覧取得API 返り値 */
 export type ArticleItemsResponse = {
     id: string;
     title: string;
@@ -5,6 +6,7 @@ export type ArticleItemsResponse = {
     tags: Tag[]
 }[]
 
+/** タグ */
 type Tag = {
     name: string;
 }
