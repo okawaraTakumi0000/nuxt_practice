@@ -1,5 +1,5 @@
-/** 記事一覧取得API 返り値 */
-export type ArticleItemsResponse = {
+/** 記事データ */
+export type Articles = {
     id: string;
     title: string;
     url: string;
@@ -8,5 +8,5 @@ export type ArticleItemsResponse = {
 
 /** タグ */
 export type Tag = {
-    name: string;
+    name:string
 }

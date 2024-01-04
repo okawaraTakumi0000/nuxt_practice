@@ -1,0 +1,13 @@
+.TagList {
+  display: flex;
+  padding: 0;
+
+  &__Item {
+    list-style-type: none;
+    background-color: #fff;
+    margin-right: 4px;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 4px;
+  }
+}

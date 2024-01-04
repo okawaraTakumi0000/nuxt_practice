@@ -1,0 +1,34 @@
+.ArticleList {
+  width: 800px;
+
+  &__Item {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 16px;
+    position: relative;
+  
+    &__Link {
+      width: 100% ;
+      height: 100%;
+      display: block;
+      color: #212121;
+      font-size: 1.15rem;
+      text-decoration: none;
+      position: absolute;
+      inset: 0px;
+    
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    &__Title {
+      margin: 0px;
+      font-size: 18px;
+    }
+  }
+}

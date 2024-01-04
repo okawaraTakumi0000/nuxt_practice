@@ -9,52 +9,49 @@
         width: 800px;
         margin: 48px auto;
     }
+}
 
-    
-    &__ListItem {
-        list-style-type: none;
-        width: 100%;
-        height: 100%;
-        background-color: #f6f6f6;
-        margin-bottom: 16px;
-        padding: 16px;
-        border-radius: 8px;
-        position: relative;
+.ListItem {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 16px;
+  position: relative;
+
+  &__Link {
+    width: 100% ;
+    height: 100%;
+    display: block;
+    color: #212121;
+    font-size: 1.15rem;
+    text-decoration: none;
+    position: absolute;
+    inset: 0px;
+  
+    &:hover {
+      text-decoration: underline;
     }
+  }
 
-    &__ListItemTitle {
-        margin: 0px;
-    }
+  &__Title {
+    margin: 0px;
+    font-size: 18px;
+  }
+}
 
-    &__Link {
-        width: 100% ;
-        height: 100%;
-        display: block;
-        color: #212121;
-        font-size: 1.15rem;
-        text-decoration: none;
-        position: absolute;
-        inset: 0px;
+.TagList {
+  display: flex;
+  padding: 0;
 
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-
-
-    &__TagList {
-        display: flex;
-        padding: 0;
-    }
-
-    &__TagItem {
-        list-style-type: none;
-        background-color: #fff;
-        margin-right: 4px;
-        font-size: 14px;
-        border-radius: 4px;
-        padding: 4px;
-    }
-
-
+  &__Item {
+    list-style-type: none;
+    background-color: #fff;
+    margin-right: 4px;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 4px;
+  }
 }

@@ -1,0 +1,11 @@
+.Articles {
+    margin: 0 16px;
+    &__Title {
+        font-size: 1.5rem;
+        color: #212121;
+    }
+
+    &__List {
+        margin: 48px auto;
+    }
+}
